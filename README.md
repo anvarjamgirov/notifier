@@ -22,6 +22,11 @@ Ushbu loiha topshirilgan taskni bajarish uchun yaratildi
   ```pip3 install -r requirements.txt```
   
 4. *notifier/settings.py* faylidagi **EMAIL_HOST_USER** va **EMAIL_HOST_PASSWORD** o'zgaruvchilariga kerakli qiymatlarni kiritamiz.
+
+    *Bunda biriktirilayotgan gmail manzili uchun bazi to'g'irlashlarni amalga oshirish kerak:*
+    
+    **https://support.google.com/mail/answer/7126229?p=BadCredentials da ko'rsatilgan tartibda smtp orqali foydalanishni yoqish zarur.**
+    **https://support.google.com/accounts/answer/6010255 da ko'rsatilganidek havfsizligi past bo'lgan dasturlardan foydalanishga ruxsat berish zarur.**
   
 5. **migrations** va **migrate** larni amalga oshiramiz:
 
